@@ -10,4 +10,4 @@ class adminUsuario(admin.ModelAdmin):
 @admin.register(Mamadas)
 
 class adminMamadas(admin.ModelAdmin):
-	list_display = ('user','telefono','direccion')
+	list_display = ('user', 'telefono', 'direccion')

@@ -13,5 +13,5 @@ class Usuario(models.Model):
 
 class Mamadas(models.Model):
 	user = models.OneToOneField(User, blank=False)
-	telefono 	= models.CharField(blank=False, max_length=100)
-	direccion 	= models.CharField(blank=False, max_length=100)
+	telefono = models.CharField(blank=True, max_length=100)
+	direccion = models.CharField(blank=True, max_length=100)
